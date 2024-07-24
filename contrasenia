@@ -1,0 +1,9 @@
+import random
+
+logitud=input("cual es la longitud dela cadena: ")
+caracteres="13232332345j64iubgririyniu3087041hsab9iib"
+contrasenia=""
+for i in range(logitud):
+    contrasenia+=random.choice(caracteres)
+
+print(contrasenia)
